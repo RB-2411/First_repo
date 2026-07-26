@@ -17,7 +17,7 @@ const Config = ({
   testDir: './tests',
   fullyParallel: true, // Runs tests across browsers simultaneously
   timeout : 30*1000,
-  workers:2,
+  //workers:2,
   expect : {
   timeout :10*1000,
   },
