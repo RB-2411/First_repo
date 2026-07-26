@@ -7,3 +7,8 @@ test('local storage save', async ({page})=>{
     await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
     await page.pause();
 })
+
+test('update page', async ({page}) => {
+await page.goto("https://www.udemy.com/");
+
+});
