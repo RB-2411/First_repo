@@ -6,7 +6,8 @@
   "scripts": {
     "regression" : "npx playwright test",
     "smoke" : "npx playwright test tests/Grouping_tcc.spec.js",
-    "login" : "npx playwright test tests/loginPage.spec.js"
+    "login" : "npx playwright test tests/loginPage.spec.js",
+    "sample" : "npx palywright test tests/sample.spec.js"
   },
   "keywords": [],
   "author": "",
